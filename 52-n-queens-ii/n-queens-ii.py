@@ -20,8 +20,7 @@ class Solution(object):
                 diag2.add(row + col)
                 
                 backtrack(row + 1)
-                
-               
+                              
                 cols.remove(col)
                 diag1.remove(row - col)
                 diag2.remove(row + col)
